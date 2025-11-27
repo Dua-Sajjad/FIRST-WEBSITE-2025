@@ -234,11 +234,22 @@ body {
 /* CARD START */
 
 /* CARD UPPER HEADING START */
+#subheading{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#subheading button{
+    height: max-content;
+    padding: 6px 12px;
+}
 
 #subheading h3 {
     font-size: 30px;
     color: black;
-    text-align: start;
+  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 70px;
     padding-top: 50px;
