@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rythm Music House - Contact Us</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f7f9fc;
+    }
+
+    .header {
+        background: linear-gradient(135deg, #4a2cff, #8b5eff);
+        padding: 80px 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .header h1 {
+        margin: 0;
+        font-size: 45px;
+        letter-spacing: 1px;
+    }
+
+    .header p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .contact-btn {
+        margin-top: 25px;
+        padding: 15px 35px;
+        background-color: #ffffff;
+        color: #4a2cff;
+        border: none;
+        border-radius: 30px;
+        font-size: 18px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .contact-btn:hover {
+        background-color: #e4e4ff;
+    }
+
+    /* Popup Background */
+    .popup-bg {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.6);
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Popup Form */
+    .popup {
+        background: white;
+        width: 90%;
+        max-width: 500px;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .popup h2 {
+        margin-top: 0;
+        text-align: center;
+        color: #4a2cff;
+    }
+
+    .popup input, .popup textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    .popup button {
+        width: 100%;
+        padding: 12px;
+        background-color: #4a2cff;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .popup button:hover {
+        background-color: #6d55ff;
+    }
+
+    .close-btn {
+        text-align: center;
+        margin-top: 10px;
+        color: #555;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+<div class="header">
+    <h1>Rythm Music House</h1>
+    <p>Let's Connect! Whether you want to learn music, buy instruments, or collaborate — we’re here for you.</p>
+    <button class="contact-btn" onclick="openForm()">Contact Us</button>
+</div>
+
+<!-- POPUP BACKGROUND -->
+<div class="popup-bg" id="popupForm">
+    <div class="popup">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Phone Number" required>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button>Send Message</button>
+        <div class="close-btn" onclick="closeForm()">Close</div>
+    </div>
+</div>
+
+<div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis non, ullam nulla a modi neque exercitationem nobis sint, quia eius repellendus consequatur accusamus minima voluptate nostrum laudantium optio delectus? Quos commodi saepe aut libero quidem culpa dolore deleniti asperiores quis iste inventore porro perferendis quam eum nulla vero, qui nam veniam doloribus quisquam? Aut, enim ea libero laborum itaque qui hic architecto consequatur maxime dolorem ullam temporibus nam cupiditate eos rem doloribus. Iure sunt ex voluptates numquam libero quis eum cum ipsa dolorum rerum vel harum commodi aliquam aspernatur delectus, autem nobis est unde consectetur deleniti illum repellat? Rem perferendis vel autem facilis aut voluptatibus eius maxime adipisci? Sed beatae asperiores fuga quia rerum quod voluptatem corporis veniam aperiam, temporibus velit at earum obcaecati atque inventore? Magnam, ullam? Quis fuga perspiciatis accusamus consequatur suscipit, vitae aliquid, facilis, ut quibusdam et temporibus magnam exercitationem adipisci deleniti minus quaerat doloribus? Placeat sint nisi voluptatibus corrupti accusamus quae unde, aspernatur magni debitis temporibus id sapiente modi laborum harum nam aut quos laboriosam molestiae sit, quod dolor, similique eligendi magnam nobis. Odit deleniti explicabo quod libero laborum eligendi expedita quisquam eos dolores esse, sed dignissimos consequuntur. Suscipit error adipisci laudantium nesciunt delectus ipsam pariatur magnam facilis voluptatem atque, excepturi nihil obcaecati, incidunt dolores in dignissimos officia possimus assumenda reiciendis accusantium sapiente fuga a reprehenderit quisquam. Voluptatibus, distinctio! Officia est voluptatem reprehenderit cupiditate illo, fugiat delectus porro, cumque totam reiciendis corporis neque earum voluptate animi repellendus eveniet natus, possimus vero fugit iusto? Aliquam amet iusto officiis quos vel id quis ab! Qui, placeat mollitia. Doloribus, excepturi laudantium optio molestiae eos, debitis quo soluta praesentium, vel amet perferendis. Tempora corporis doloribus incidunt deserunt eum impedit. Minima quod corporis, repudiandae enim sint cumque voluptatibus obcaecati numquam, minus fugiat, sequi quas doloremque ratione magni non illum harum. Beatae, temporibus architecto eaque possimus asperiores necessitatibus eveniet. Nobis ipsam cum commodi suscipit unde distinctio itaque nostrum quis? Officia, saepe magni. Incidunt, deleniti excepturi impedit ea inventore, ipsam architecto ab accusantium soluta ipsa beatae est accusamus. Excepturi dolore quasi nulla harum, magni autem, iste consequuntur nemo ab voluptas cum incidunt repellat? Cumque, nulla? Fuga officia excepturi enim corporis. Illo consectetur laudantium ut inventore fuga nostrum corporis minima delectus deleniti ducimus accusamus repellendus doloribus distinctio dicta nisi voluptatibus eveniet assumenda, nobis possimus et iste est saepe? Sapiente quisquam maiores voluptatem nemo unde magnam repellat consequatur enim at repudiandae ullam quibusdam vitae saepe odit reprehenderit ea hic dignissimos commodi quis molestias, ut eum ex voluptates sint! Blanditiis culpa reiciendis eveniet delectus hic voluptatibus laudantium rem quae vero laboriosam expedita enim, amet nobis odit? Inventore veniam animi optio quisquam in, quod impedit rerum autem? Distinctio amet velit obcaecati mollitia minima maiores, consequatur sequi deserunt! Cumque officia cupiditate voluptatibus tenetur repellendus quasi necessitatibus tempora consequuntur quidem tempore nihil, fugit, sit illo optio a suscipit maxime, in odio similique excepturi mollitia qui soluta eligendi! Nobis quidem quae cum eveniet iure minus reprehenderit, iusto assumenda vel dolores illum rerum sit, esse ex in magnam. Harum, ratione a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reprehenderit odit officiis expedita ipsam tenetur quae fugiat magnam enim laborum omnis a illum repellat repudiandae eum, quas, numquam sit error veniam eos asperiores. Quibusdam a, totam tempora sed modi illo quo eos et voluptatem illum earum sit provident, cupiditate minus reiciendis sint nihil aspernatur aliquid perspiciatis tempore, ex quia dolores alias. Cupiditate optio sunt deserunt quis praesentium placeat quaerat laudantium numquam fuga cum? Voluptas explicabo repudiandae reprehenderit reiciendis cum omnis consequatur praesentium error ullam quod, ducimus ea officia quidem. Et voluptas voluptatum soluta dolores asperiores minima minus tenetur amet? Fugiat aspernatur ullam nulla ipsum commodi laborum quod, tempora iusto dolorem provident magni eveniet saepe voluptatum consequuntur! Voluptate aliquam nam facilis laboriosam praesentium laudantium ipsam nesciunt eligendi repellat ad nisi, eum, ab blanditiis ex dolores, provident molestias nihil libero esse accusantium? Quo ipsa voluptatum consectetur eligendi debitis exercitationem quia dolorem incidunt hic vero nobis consequuntur animi ducimus pariatur at vitae excepturi enim ratione, est praesentium molestias. Eaque repellendus omnis deserunt, nobis, numquam ut reiciendis quos consectetur delectus aliquid commodi, nostrum laborum. Corporis velit veritatis sint exercitationem omnis officia doloribus esse, incidunt odio itaque eaque sequi, reiciendis quos adipisci praesentium animi laudantium aut vel ratione modi veniam! Excepturi nemo voluptates, illo obcaecati nam totam possimus quas repellat molestias veritatis ea iusto, ipsam omnis magni quod. Dicta dolore amet impedit eaque eum numquam consectetur, facere cupiditate non corrupti placeat sit laboriosam! Labore eum dolor voluptates maxime exercitationem. Nulla at ut quibusdam dolores consectetur? Praesentium expedita culpa, omnis explicabo reprehenderit placeat consequuntur velit quasi ad repellat blanditiis delectus quia suscipit deserunt adipisci veniam, eum aliquid accusantium perspiciatis libero. Ea quia dolorum optio similique nihil rem nisi itaque neque, debitis esse fugit, deleniti unde eum nesciunt, aliquid repellat. Qui distinctio ipsam, aperiam aspernatur labore fugiat, nulla a dolores rem laborum eveniet, debitis rerum ipsum ullam veritatis quas! Repudiandae commodi repellendus saepe hic quam ducimus, id doloremque minus possimus est inventore tempora aut quos? Recusandae corporis laboriosam voluptates expedita atque aliquam accusantium dolorum laborum consequatur officiis vero culpa odit quidem molestias, quis quaerat suscipit reiciendis fugiat vitae distinctio qui sit. Voluptas, soluta expedita eveniet, repellat enim reprehenderit voluptatem architecto aliquid dignissimos velit accusamus vero ipsa? Ipsum quidem ratione eos repellendus alias dolorum nihil mollitia impedit assumenda velit ipsa reprehenderit provident ex deserunt quasi beatae repellat commodi aperiam, rerum iusto quibusdam natus error, amet accusamus. Neque itaque soluta ducimus, excepturi alias architecto earum voluptates maiores vitae, expedita dolores delectus beatae doloribus velit repellat. Aspernatur repellat doloremque sint excepturi ipsum iste, ipsa deserunt consequatur tempore distinctio eius! Repellendus magni temporibus dignissimos, ipsum cupiditate aspernatur tempore perspiciatis et voluptas quia asperiores praesentium accusamus ab odio eum possimus magnam aliquam similique. Rerum ullam iusto at possimus nulla, voluptate sapiente facilis, sequi nisi eaque aliquam deserunt vel pariatur a dicta nihil unde optio cumque in nemo minus eum assumenda quibusdam? Eos ipsam cum fuga dolore rem nesciunt blanditiis illo harum, magnam itaque. Magnam, repellendus delectus, corporis pariatur eius officia labore explicabo debitis qui temporibus odit mollitia obcaecati deserunt harum reiciendis consequatur illum porro eos totam dolores blanditiis, aut eum ab rerum? Qui dolore et vero maiores quibusdam dolorum excepturi modi, facilis consequatur inventore, nulla quasi aspernatur cum ducimus quo esse blanditiis at. Sed officiis quae quam dolor. Labore voluptatum nulla optio aperiam aut excepturi pariatur libero minima harum, veniam nisi corporis itaque commodi laboriosam voluptates quod adipisci. Neque temporibus ea voluptates alias, officiis iste pariatur odit quidem ab, placeat reiciendis, quibusdam beatae deleniti animi consequatur sunt minima in mollitia. Repellendus laborum, maiores esse debitis pariatur sapiente inventore fuga eaque enim. At error recusandae nihil! Iusto dolor officiis harum ut, nisi minus eos distinctio sunt. Dolorum eius facere facilis dolore eos aut cupiditate, cum repudiandae animi consequuntur error modi doloremque quibusdam dignissimos sunt. Molestiae, quam necessitatibus ab blanditiis facilis voluptatibus cupiditate. Neque possimus pariatur ut, quae itaque ipsam asperiores dolorum odit necessitatibus vel harum magni maxime nobis! Assumenda error ad nihil eius quis hic maxime corporis distinctio saepe impedit blanditiis quam provident beatae iusto, excepturi veritatis illum explicabo laboriosam accusantium animi quae voluptate eaque? Laborum accusantium necessitatibus nobis quasi, eius eos totam, voluptas consectetur eaque inventore at nihil ut, quas perferendis cum.</p>
+</div>
+
+<!-- JAVASCRIPT -->
+<script>
+function openForm() {
+    document.getElementById("popupForm").style.display = "flex";
+}
+
+function closeForm() {
+    document.getElementById("popupForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
