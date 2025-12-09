@@ -5,12 +5,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="png" href="../icon/logoremove.png" style="width: 20px; height: 20px; border-radius: 5px;">
-    <title>RYTHMHOUSE</title>
+    <title>RYTHM HOUSE</title>
+    <link rel="stylesheet" href="card1.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    .product-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
 
-<body>
+    .product-image img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 8px;
+    }
+
+    .product-info {
+        margin-left: 30px;
+        max-width: 600px;
+    }
+
+    .product-info h1 {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .product-info .description {
+        font-size: 1.1rem;
+        color: white;
+        margin: 20px 0;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 20px;
+
+    }
+
+    button {
+        padding: 12px 25px;
+        background-color: #C1E8FF;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background-color: #052659;
+        color: white;
+        transform: scale(1.05);
+    }
+
+    .hm {
+        background-color: #405e76;
+    }
+
+    .me {
+        background-color: #11212D;
+    }
+
+    .myNav {
+        background: #9BA8AB !important;
+        color: white;
+        position: sticky;
+    }
+
+    .myNav a {
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        /* background-color:#7F8488 ; */
+    }
+
+    .nav-link a {
+        padding: 30px 30px;
+    }
+
+    nav .myNav a:hover {
+        color: rgb(19, 220, 220);
+        transition: 0.3s;
+    }
+
+    .icons-right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 22px;
+        cursor: pointer;
+        color: #F4EFE7;
+    }
+
+    .icons-right span {
+        transition: 0.3s;
+    }
+
+    .icons-right span:hover {
+        transform: scale(1.2);
+        color: #A8B29E;
+    }
+</style>
+
+<body class="hm">
     <!-- HEADER START -->
     <section id="header">
         <div class="logo-area">
@@ -28,66 +133,40 @@
                 <li id="shop"><a href="../other/books.html">Books & Magazines!</a></li>
             </ul>
         </div>
-
         <div class="menu" id="mobile" onclick="toggleMenu()">
             <i id="bar" class="fa-solid fa-bars"></i>
         </div>
     </section>
 
-    <!-- BANNER START -->
-    <section id="aheader">
-        <h1>#ContactUs</h1>
-        <p>Let's Connect! Whether you want to learn music, buy instruments, or collaborate — we’re here for you.</p>
-        <button class="contact-btn" onclick="openForm()">Contact Us</button>
-    </section>
+    <div class="product-details">
+        <div class="product-image">
+            <img src="../img/atif.jpg" alt="AtifAslam" />
+        </div>
+        <div class="product-info">
+            <h1>Atif Aslam</h1>
+            <p class="description">
+                Atif Aslam is a Pakistani playback singer and actor, known for his powerful vocals and emotional singing
+                style. He was born on 12 March 1983 in Wazirabad, Pakistan. Atif first gained fame with his debut song
+                “Aadat” as part of the band Jal, and later built a successful solo career.
+                <li>
+                    Famous for hits like “Woh Lamhe,” “Tera Hone Laga Hoon,” “Jeena Jeena,” “Dil Diyan Gallan,” and many
+                    more
+                </li>
 
-     <div id="cbox">
-        <div class="contact1">
-            <h2>Get in Touch</h2>
-            <h3>Visit one of our agency locations or Contact US Today</h3>
-            <h4>Head Office</h4>
-
-        <li>
-            <p><i class="fa-solid fa-location-crosshairs"></i>  Aptech Metro Star Gate</p>
-        </li>
-
-        <li> 
-            <p> <i class="fa-solid fa-envelope"></i>  rythmmusic@gmail.com</p>
-        </li>
-
-        <li>
-            <p> <i class="fa-regular fa-mobile"></i>  +92 3102019700</p>
-        </li>
-
-        <li>         
-            <p><i class="fa-regular fa-clock"></i>  Monday to Sarurday: 9:00am to 11:15pm</p>
-        </li>
-         </div>
-    
-         <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.3139925216974!2d67.14924997436566!3d24.887269144186227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339999415e0c3%3A0x36742eee0fd9c291!2sAptech%20Metro%20Star%20Gate!5e0!3m2!1sen!2s!4v1765284627900!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                <li>
+                    Has sung in Pakistani and Bollywood films, becoming one of South Asia’s most popular voices
+                </li>
+                Known for his live performances and distinctive, soulful singing
+                <li>
+                    Awarded the Tamgha-e-Imtiaz, one of Pakistan’s highest civilian honors
+                </li>
+                <li>
+                    Has also been a judge on Pakistani music shows and performed internationally
+                </li>
+            </p>
         </div>
     </div>
-
-
-    <section id="abt-info">
-        <h2>For More Information Contact Us Now!</h2>
-        <p>Connect with us for support, collaborations or business inquiries.</p>
-        <button class="contact-btn" onclick="openform()">Contact Us?</button>
-    </section>
-
-    <div class="popup-bg" id="popupForm">
-        <div class="popup">
-            <h2>Contact Us</h2>
-            <input type="text" placeholder="Enter Your Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <input type="text" placeholder="Phone Number" required>
-            <textarea rows="4" placeholder="Your Message"></textarea>
-            <button>Send Message</button>
-            <div class="close-btn" onclick="closeForm()">Close</div>
-        </div>
     </div>
-
     <!-- FOOTER SECTION -->
 
     <footer class="section-p1">
@@ -151,18 +230,7 @@
         <div class="copyright">
             <p><i class="fa-regular fa-copyright"></i> 2025 Rythm House / Aptect Metro Star Gate</p>
         </div>
-
     </footer>
-
-    <script>
-        function openForm() {
-            document.getElementById("popupForm").style.display = "flex";
-        }
-
-        function closeForm() {
-            document.getElementById("popupForm").style.display = "none";
-        }
-    </script>
 </body>
 
 </html>
