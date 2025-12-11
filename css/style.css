@@ -1177,6 +1177,28 @@
         padding: 40px;
     }
 
+    /* SHOP NOW */
+
+    #shop1{
+        height: 90vh;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        padding: 0 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        position: relative;
+        background-color: blueviolet;
+    }
+
+    #bookcrd{
+        width: 300px;
+        height: auto;
+    }
+
 
     /* MEDIA QUERY */
 
